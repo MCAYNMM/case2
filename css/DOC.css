@@ -1,0 +1,41 @@
+/*----------------------navbar------------------------*/
+.nav-bar{
+    z-index:2;
+}
+.background-sidebar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.mynav li a {
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 8px 12px;
+
+}
+.mynav li a.active{
+    background: rgba(255,255,255,0.2);
+}
+
+.mynav li a:hover{
+    background: rgba(255,255,255,0.2);
+}
+.mynav li a i{
+    width: 25px;
+}
+.sidebar{
+    z-index: -1;
+    padding-top:60px;
+}
+/*----------------------navbar------------------------*/
+@media screen and (max-width: 768px){
+    .sidebar{
+        display: none;
+    }
+}
+.content{
+    margin-top:80px;
+}
+
+
